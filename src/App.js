@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"; // Importando o React
+import ValorantInfo from "./components/main"; // Fazendo o import do meu compomente onde abriga as funções e a estrutura do site
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App(){ //Definindo através da função 'App' para retornar o "site"
+  return(
+    <>
+    <ValorantInfo/>
+
+    </>
+  )
 }
-
-export default App;
