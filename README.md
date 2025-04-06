@@ -22,4 +22,4 @@ npm start
 
 
  ## API utilizada:
- - ![Valorant API](https://dash.valorant-api.com/)
+ - [Valorant API](https://dash.valorant-api.com/)
